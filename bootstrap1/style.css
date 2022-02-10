@@ -1,0 +1,143 @@
+.bgimg{
+    background-image: url('./photos/hacker.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 750px;
+}
+
+.hearderset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.hearderset h2{
+ font-size: 40px;
+}
+.hearderset h1{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+
+
+/*
+.........................ourservices.................*/
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.ourservices h1{
+    font-size: 50px;
+}
+
+.rowsetting{
+    margin: 80px 0px !important;
+}
+
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+ .fa-free-code-camp{
+     margin-top: 24px;
+ }
+ .fa-desktop{
+    margin-top: 24px;
+}
+
+.fa-lock{
+    margin-top: 24px;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rowsetting p{
+    padding: 10px;
+    columns: #3f5970!important;
+}
+
+
+
+.portfolio{
+    height: 1200px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;
+}
+
+.ourteam{
+    height: 900px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 70px !important;
+}
+
+.footer{
+    height: 50px;
+}
+.footer h6{
+line-height: 220px;
+}
+
+
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+
+@media(min-width:460px) and (max-width:574px){
+
+}
+
+@media(max-width:479px){
+    
+.hearderset h2{
+
+        font-size: 22px;
+       }
+.hearderset h1{
+           font-size: 22px;
+           font-weight: bold;
+       }
+
+.ourservices{
+       
+        height: 2500px;
+    }
+
+    
+
+.ourteam{
+        height: 1500px;
+    }
+}
